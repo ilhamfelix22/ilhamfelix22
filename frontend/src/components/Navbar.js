@@ -13,10 +13,12 @@ const Navbar = () => {
         {/*links*/}
         <ul className = "navbar__links">
             <li>
-                <Link to="/cart">
+                <Link to="/cart" className="cart__link">
                 <i className="fas fa-shopping-cart"></i>
+                <span>
                 Cart
                 <span className="cartlogo_badge">0</span>
+                </span>
                 </Link>
             </li>
             <li>
